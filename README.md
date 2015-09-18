@@ -64,11 +64,11 @@ There are two parts to submitting your work.
 	2. Create an empty branch for MP0 as follows: `git checkout --orphan mp0`.
 	3. If you had cloned the provided skeleton code using the command `git clone https://github.com/CPEN-221/mp0-fall2015`, then copy the `src` directory (presumably, with your own additions) from that location to the new repository location. (You should copy the `src` directory and its contents.)
 	4. You can then submit your work from the appropriate `2015-<Lab Section>-<GitHub Username>` directory as follows:
-		```git
-		git add src/*
-		git commit -m "MP0 submission"
-		git push
-		```
+```
+git add src/*
+git commit -m "MP0 submission"
+git push
+```
 	5. Note that the `git` commands in the previous step were provided as an example. You should get comfortable with using `git` as suitable.
 
 1. You will create a PDF document with (i) the graph that shows the running times for the first 55 Fibonacci numbers and (ii) a short discussion (one paragraph) on whether it is easier to test if a number is a Fibonacci number or whether it is easier to generate the Fibonacci numbers. The exact format for this document is available on Gradescope under an assignment named `MP0`.
