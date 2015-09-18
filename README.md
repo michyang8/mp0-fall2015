@@ -59,8 +59,18 @@ Implement the methods requested. You should find this part of the task easy if y
 
 There are two parts to submitting your work.
 
-1. You will submit your code to a specific repository on GitHub. Instructions on which repository to use and how to submit your work will be updated closer to the submission date.
+1. To submit source code, you should use the Github repository that was created for you and this course. You should have received an invitation to join a Github team with access to the specific repository. The URL of the repository should look like this: `https://github.com/CPEN-221/2015-<Lab Section>-<GitHub Username>`. (If Sathish were a student in the course and in lab section L1A, the URL he would use will be `https://github.com/CPEN-221/2015-L1A-GSathish`.)
+	1. Clone the repository you were assigned using the `git clone` command.
+	2. Create an empty branch for MP0 as follows: `git checkout --orphan mp0`.
+	3. If you had cloned the provided skeleton code using the command `git clone https://github.com/CPEN-221/mp0-fall2015`, then copy the `src` directory (presumably, with your own additions) from that location to the new repository location. (You should copy the `src` directory and its contents.)
+	4. You can then submit your work from the appropriate `2015-<Lab Section>-<GitHub Username>` directory as follows:
+		```
+		$ git add src/*
+		$ git commit -m "MP0 submission"
+		$ git push
+		```
+	5. Note that the `git` commands in the previous step were provided as an example. You should get comfortable with using `git` as suitable.
 
-1. You will create a PDF document with (i) the graph that shows the running times for the first 55 Fibonacci numbers and (ii) a short discussion (one paragraph) on whether it is easier to test if a number is a Fibonacci number or whether it is easier to generate the Fibonacci numbers. The exact format for this document will also be made available in a few days and you will submit this document using Gradescope.
+1. You will create a PDF document with (i) the graph that shows the running times for the first 55 Fibonacci numbers and (ii) a short discussion (one paragraph) on whether it is easier to test if a number is a Fibonacci number or whether it is easier to generate the Fibonacci numbers. The exact format for this document is available on Gradescope under an assignment named `MP0`.
 
 (This last section will be updated with complete instructions in a few days.)
