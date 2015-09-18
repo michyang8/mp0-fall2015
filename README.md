@@ -73,4 +73,4 @@ git push
 
 * Note that the `git` commands in the previous step were provided as an example. You should get comfortable with using `git` as suitable.
 
-* You will create a PDF document with (i) the graph that shows the running times for the first 55 Fibonacci numbers and (ii) a short discussion (one paragraph) on whether it is easier to test if a number is a Fibonacci number or whether it is easier to generate the Fibonacci numbers. The exact format for this document is available on [Gradescope](https://gradescope.com/) under an assignment named `MP0`.
+* You will create a PDF document with (i) the graph that shows the running times for the first 55 Fibonacci numbers and (ii) a short discussion (one paragraph) on whether it is easier to test if a number is a Fibonacci number or whether it is easier to generate the Fibonacci numbers. The exact format for this document is available on [Gradescope](https://gradescope.com/) under an assignment named `MP0`. Submit this document using Gradescope.
