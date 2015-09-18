@@ -3,7 +3,7 @@ CPEN 221 - Fall 2015 - MP0
 **Fibonacci Numbers**
 
 ### Important Notes
-* Due September 18, by 6:00 p.m.
+* Due ~September 18, by 6:00 p.m.~ September 21, by 9:00 a.m.
 * This is an *individual* assignment and you cannot use any late days for this assignment.
 * This assignment has a weight of 3% towards your final *raw* grade.
 * _This is a very gentle introduction to the material._ Our acceleration will be quite high. Please spend time understanding Java and trying out examples on your own.
@@ -72,5 +72,3 @@ There are two parts to submitting your work.
 	5. Note that the `git` commands in the previous step were provided as an example. You should get comfortable with using `git` as suitable.
 
 1. You will create a PDF document with (i) the graph that shows the running times for the first 55 Fibonacci numbers and (ii) a short discussion (one paragraph) on whether it is easier to test if a number is a Fibonacci number or whether it is easier to generate the Fibonacci numbers. The exact format for this document is available on Gradescope under an assignment named `MP0`.
-
-(This last section will be updated with complete instructions in a few days.)
