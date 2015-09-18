@@ -65,7 +65,7 @@ There are two parts to submitting your work.
 	* If you had cloned the provided skeleton code using the command `git clone https://github.com/CPEN-221/mp0-fall2015`, then copy the `src` directory (presumably, with your own additions) from that location to the new repository location. (You should copy the `src` directory and its contents.)
 	* You can then submit your work from the appropriate `2015-<Lab Section>-<GitHub Username>` directory as follows:
 
-```
+```git
 git add src/*
 git commit -m "MP0 submission"
 git push
