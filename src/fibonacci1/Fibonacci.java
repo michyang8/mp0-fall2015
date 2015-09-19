@@ -15,8 +15,23 @@ public class Fibonacci {
 	 */
 	public static long getFibonacci(int n) {
 		// TODO: Implement this method
-		return -1; // This is a dummy return value. You will have to change
-					// this.
+		
+		//Variables
+		long F1=1; long F2=1; long Fn=0;
+		
+		//Seed values of sequence
+		if(n<=1)
+			return n;
+		
+		//computes Fibonacci numbers
+		for (int count=2; count<n; ++count){
+			Fn=F1;
+			F1+=F2;
+			F2=Fn;
+		}
+		
+		//returns Fibonacci number
+		return F1;
 	}
 
 	/**
@@ -31,7 +46,7 @@ public class Fibonacci {
 		// One should not have to modify this method other than to change the
 		// value for M.
 
-		int M = 60;
+		int M = 55;
 		long fibN; // to hold a Fibonacci number
 		long startTime, endTime; // for timing the execution of the method
 		for (int n = 0; n < M; ++n) {
