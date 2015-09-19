@@ -15,8 +15,22 @@ public class Fibonacci {
 	 */
 	public static long getFibonacci(int n) {
 		// TODO: Implement this method
-		return -1; // This is a dummy return value. You will have to change
-					// this.
+	//Variables
+		long F1=1; long F2=1; long Fn=0;
+		
+		//Seed values of sequence
+		if(n<=1)
+			return n;
+		
+		//computes Fibonacci numbers
+		for (int count=2; count<n; ++count){
+			Fn=F1;
+			F1+=F2;
+			F2=Fn;
+		}
+		
+		//returns Fibonacci number
+		return F1;
 	}
 
 	/**
